@@ -28,3 +28,4 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files          = 'Sources/CasePaths/**/*.swift'
+end
