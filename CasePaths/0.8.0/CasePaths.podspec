@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.5'
 
   s.source = { :git => "https://github.com/pointfreeco/swift-case-paths.git", :tag => "#{s.version}" }
-  s.source_files  = "Sources/CasePaths/**/*.swift"
+  s.source_files  = "Sources/CasePaths/*.swift"
 end
